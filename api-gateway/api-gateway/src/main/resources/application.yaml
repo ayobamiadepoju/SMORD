@@ -6,3 +6,6 @@ spring:
     name: api-gateway
   config:
     import: "configserver:http://localhost:8888"
+
+jwt:
+  secret: smord-config-repo-smord-config-repo
